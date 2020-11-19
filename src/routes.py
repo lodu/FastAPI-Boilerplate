@@ -11,6 +11,7 @@ from src.database.scripts import get_db
 
 router = APIRouter()
 
+
 @router.get("/", response_class=HTMLResponse)
 def home():
     return f"<body><h1>API of {SYSTEM_NAME}</h1></body>"

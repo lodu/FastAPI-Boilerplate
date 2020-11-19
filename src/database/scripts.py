@@ -31,6 +31,7 @@ fake_user_2 = {
     "username": "plateBOILER",
 }
 
+
 def create_fake_data():
     insert_params = f"{tuple(fake_user_1.values())}, {tuple(fake_user_2.values())}"
     query = f"INSERT INTO users (email, hashed_password, full_name, disabled, username) VALUES {insert_params}"
