@@ -4,7 +4,7 @@
 >
 > - Passwords are not actually getting hashed.
 > - All origins are allowed
-> - You might need to set `$PYTHONPATH` (to **parentfolder** of [src](./src), so where you clone this repo to)
+> - You might need to set `$PYTHONPATH` (to **parentfolder** of [src](./src), so where you cloned this repo to)
 
 # Docker
 
