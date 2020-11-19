@@ -1,5 +1,6 @@
-# Boilerplate for [FastAPI](https://fastapi.tiangolo.com/)
+# Boilerplate for [FastAPI](https://github.com/tiangolo/fastapi)
 
+> [FastAPI docs](https://fastapi.tiangolo.com/)
 > Important
 >
 > - Passwords are not actually getting hashed.
