@@ -4,7 +4,7 @@
 >
 > - Passwords are not actually getting hashed.
 > - All origins are allowed
-> - You might need to set `$PYTHONPATH` (to **parentfolder** of [src](./src) so probably [here](./))
+> - You might need to set `$PYTHONPATH` (to **parentfolder** of [src](./src), so where you clone this repo to)
 
 # Docker
 
@@ -20,7 +20,7 @@
 
 - `pip install alembic`
 - `alembic init alembic`
-- set URL in alembic.ini
+- set URL in alembic.ini (so probably `localhost:5432/`)
 - for `--autogenerate`, set `target_metadata` in alembics `env.py` like this:
 
 ```
